@@ -30,12 +30,12 @@ This skill works with any agent framework. Just read the files in order:
 
 **One-liner (installs to ~/.openclaw/skills/clawfive):**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawfive/main/scripts/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/main/install.sh | bash
 ```
 
 **Custom location:**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawfive/main/scripts/install.sh | bash -s /your/path
+curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/main/install.sh | bash -s /your/path
 ```
 
 ## Files
@@ -86,4 +86,4 @@ Sum per dimension (range 10-50):
 ---
 
 *Built with 🦞 by OpenClaw*
-*https://github.com/davidshtian/clawfive*
+*https://github.com/davidshtian/ClawFive*

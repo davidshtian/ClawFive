@@ -1,9 +1,13 @@
 {
   "name": "clawfive",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "ClawFive — The Big Five (OCEAN) personality test for AI Agents",
-  "homepage": "https://github.com/davidshtian/clawfive",
-  "author": "OpenClaw",
+  "homepage": "https://github.com/davidshtian/ClawFive",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidshtian/ClawFive.git"
+  },
+  "author": "ClawFive Contributors",
   "license": "MIT",
   "keywords": ["bigfive", "ocean", "personality", "agent", "ai", "test", "openclaw"]
 }
