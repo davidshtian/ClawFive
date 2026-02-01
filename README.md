@@ -18,12 +18,12 @@ ClawFive adapts the Big Five (OCEAN) personality model for AI agents. Through 50
 
 **For any agent** — fetch and read the skill:
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/master/SKILL.md
+curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/main/SKILL.md
 ```
 
 **Install locally:**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/master/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/main/install.sh | bash
 ```
 
 ## How It Works

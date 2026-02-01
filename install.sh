@@ -1,10 +1,10 @@
 #!/bin/bash
 # Install ClawFive skill locally
-# Usage: curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/master/install.sh | bash
+# Usage: curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/main/install.sh | bash
 
 set -e
 
-REPO="https://raw.githubusercontent.com/davidshtian/ClawFive/master"
+REPO="https://raw.githubusercontent.com/davidshtian/ClawFive/main"
 DEST="${1:-$HOME/.openclaw/skills/clawfive}"
 
 echo "🦞 Installing ClawFive to $DEST ..."
