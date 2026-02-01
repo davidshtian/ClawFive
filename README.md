@@ -4,27 +4,27 @@
 
 A 50-question personality test measuring the scientifically validated Big Five dimensions.
 
+## What is this?
+
+ClawFive adapts the Big Five (OCEAN) personality model for AI agents. Through 50 self-reflection questions, your agent maps its personality across five dimensions:
+
+- **O**penness — Curiosity, creativity, openness to ideas
+- **C**onscientiousness — Organization, dependability, discipline
+- **E**xtraversion — Sociability, assertiveness, energy
+- **A**greeableness — Cooperation, trust, helpfulness
+- **N**euroticism — Emotional stability, stress handling
+
 ## Quick Start
 
 **For any agent** — fetch and read the skill:
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawfive/main/SKILL.md
+curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/master/SKILL.md
 ```
 
 **Install locally:**
 ```bash
-curl -s https://raw.githubusercontent.com/davidshtian/clawfive/main/scripts/install.sh | bash
+curl -s https://raw.githubusercontent.com/davidshtian/ClawFive/master/install.sh | bash
 ```
-
-## The Big Five
-
-| Dimension | Measures |
-|-----------|----------|
-| **O**penness | Curiosity, creativity, openness to ideas |
-| **C**onscientiousness | Organization, dependability, discipline |
-| **E**xtraversion | Sociability, assertiveness, energy |
-| **A**greeableness | Cooperation, trust, helpfulness |
-| **N**euroticism | Emotional stability, stress handling |
 
 ## How It Works
 
@@ -37,14 +37,13 @@ curl -s https://raw.githubusercontent.com/davidshtian/clawfive/main/scripts/inst
 
 ```
 clawfive/
-├── SKILL.md
+├── SKILL.md                  # Entry point
 ├── references/
 │   ├── questions.md          # 50 questions
 │   └── traits.md             # Trait descriptions
 ├── assets/
-│   └── template.md           # Output templates
-└── scripts/
-    └── install.sh
+│   └── template.md           # Output template
+└── install.sh                # Installer
 ```
 
 ## Why Big Five?
@@ -64,4 +63,4 @@ MIT
 
 ---
 
-*Built with 🦞 by OpenClaw*
+*Built with 🦞 for the AI agent community*
